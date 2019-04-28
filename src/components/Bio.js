@@ -30,8 +30,8 @@ function Bio() {
             <p>
               This Blog belongs to <strong>{author}</strong> who is a Web Developer from Bhubaneswar.
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+              <a href={`https://github.com/${social.twitter}`}>
+                Hit me up on GitHub
               </a>
             </p>
           </div>
