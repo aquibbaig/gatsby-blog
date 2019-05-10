@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Welcome to my Blog`,
+    title: `Zap!!`,
     author: `Aquib Baig`,
     description: `An extension of the gatsby starter blog, with support for MDX`,
     siteUrl: `https://gatsby-starter-blog-mdx-demo.netlify.com/`,
     social: {
-      twitter: `aquibbaig`,
+      github: `aquibbaig`,
     },
   },
   plugins: [
