@@ -45,6 +45,7 @@ The *static* keyword against a class name if used to chain classes one within an
 for their respective classes.
 
 - **traversal of elements in a Linked List**
+
 ```
 public function tr(List ll){
     Node curr = ll.head;
@@ -56,6 +57,7 @@ public function tr(List ll){
 
 traverse(ll);
 ```
+
 The *current* variable is a temporary variable used to reference the head of the Linked List. The basic implementation 
 concerning Linked Lists is that we always use temporary variables to change the present structure of the Linked List
 and finally replace it with the original one. After all, the original linked list must be preserved. It works just like 
@@ -63,6 +65,7 @@ the Universe. We can use other realities to define ours but if we dont restore o
 reality. *giggles* ...
 
 - **deletion of an element from Linked List**
+
 ```
     if(ll.head.data == element) 
     {
@@ -82,6 +85,7 @@ reality. *giggles* ...
     }
     }
 ```
+
 Deletion must be easy as we know how to traverse elements. It is just a matter of if-else statements. But moreover we need
 to point the next of the current Node to that of the deleted node's next. Be careful to handle exceptions too.
 
