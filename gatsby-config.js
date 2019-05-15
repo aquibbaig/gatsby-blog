@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Hello,',
+    title: 'Aquib Baig',
     author: 'Aquib Baig',
     description:
       'This website belongs to Aquib Baig who is a Web Developer and Architect at Zairza',
