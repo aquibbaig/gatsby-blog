@@ -28,7 +28,8 @@ function Bio() {
               }}
             />
             <p>
-              This blog belongs to <strong>{author}</strong> who is a Web Developer and Architect at Zairza.
+              This blog belongs to <strong>{author}</strong> who is a Web Developer and Architect at Zairza. Apart from code, I like to play soccer,
+              listen to music and play video games. 
               {` `}
               <a href={`https://github.com/${social.github}`} target={`blank`}>
                 Follow me on Github
