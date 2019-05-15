@@ -6,7 +6,6 @@ date: '2019-05-07T14:12:03.284Z'
 ![Google Summer of Code 2019](./GSOC.png)
 
 ### Introduction
-This article will be just words and less fun. Be prepared!
 I feel really happy to announce that I have been selected to work under 
 [Google Summer of Code](https://summerofcode.withgoogle.com/) internship programme organised every year by Google Inc. to 
 make students reach out to Open Source organisations and provide them a wonderful opportunity to grow as Open Source 
@@ -15,35 +14,28 @@ programme is that firstly, it is work from home and secondly, on successfully co
 This is supposed to vary from country to country [as mentioned here](https://developers.google.com/open-source/gsoc/help/student-stipends).
 I hope to work really hard and satisfy all those goals that I have proposed.
 
-> “Don’t ever let somebody tell you… You can’t do something. Not even me.
-All right? … You got a dream… You gotta protect it. People can’t do
-somethin’ themselves, they wanna tell you you can’t do it. If you want 
-somethin’, go get it. Period.”
--- Will Smith (The Pursuit of Happyness)
+> This summer can be a uphill task for me because my semester clashes with GSoC dates but whateven. No life without them challenges!
 
-### My Organisation
-I had only applied in one organisation [FOSSi foundation](https://fossi-foundation.org/). The results came out yesterday (May 6, 2019)
-and I was happy that I was one of the 7 students selected for the programme [here.](https://summerofcode.withgoogle.com/organizations/4914571964317696/) 
-FOSSi foundation is a wonderful experience for me. 
-I started looking at their codebase since early November and contributing shortly after. 
-My primary mentor is Phillip Wagner, who is really a wonderful person. He is a very friendly guy - 
-I had zero idea about Symfony when I started this and he never made me feel bad about it, not even once. 
-He was always there to help. 
+### About my Organisation
+[FOSSi foundation](https://fossi-foundation.org/) is a non-profit foundation with the mission to promote and assist free and open digital hardware designs and their related ecosystems. FOSSi Foundation operates as an open, inclusive, vendor-independent group. FOSSi Foundation was created by a group of individuals coming from industry and academia, each with long experience in working on prominent Open Source projects within the digital design and embedded areas. The foundation is managed by directors, formed by the members and backed by sponsors.
+*(source: [Fossi](https://fossi-foundation.org/))*
 
-### More about stipend
-There will be two evaluations as such and a final evaluation after which you're gonna get the stipend and the name. 
-Again the stipend that you're gonna get is divided after every phase of evaluation. This year it is 900 USD, 900 USD
-and 1800 USD as per first, second and final evaluations respectively.(For India). However stipend is a small thing. Most
-of the stuff that matters is recognition, expertise and communication with a large organisation. You are not a single developer
-working in your home/school anymore. You are something bigger now. You are now a part of a bigger community. You are now
-to help other people reaching out for help.
+### About my project
+Turns out I will be working on the project [Librecores](https://www.librecores.org) to develop it in terms of **user interactivity** and **feedback**. It is a website designed with **Php** *(Symfony framework)*. A ***LibreCore*** is such an IP core that is created and distributed in the open source spirit. And LibreCores.org is like a good neighborhood pub, a place to meet the community and most importantly, find such cores. Currently it fetches data about a project from Github and it has a definitive search experience for discovering such IP Cores.
+I started looking at their codebase since early November and contributing shortly after.
+My mentor for the project is **Phillip Wagner**, who is a very friendly guy - 
+I had no idea about Symfony when I started contributing and he was always helpful in every task that I had undergone.
+
+### What I am willing to achieve this summer
+The abstract for my project can be found [here](https://summerofcode.withgoogle.com/organizations/4914571964317696/#5913738987700224).
+The entire project of mine can be broken down into **three** major parts
+- For first evaluation: Design and Implement a **Notification System**.
+- For second evaluation: Design a system to record **User Feedback** on projects listed on Librecores.
+- Strech goal: Improve UI libraries(such as migration to **webpack**).
 
 ### Conclusion
-This programme is not the end of the world and if you haven't achieved it like many of my friends have, don't worry. Just
-keep your composure. Life is very long. You're just 20-22 year old guys. There is still some time to save the world. Believe
-in yourself and never lose hope cause **Hope** is what keeps us alive. If you feel worthless or lose hope, you have lost
-miles before you even began. Have confidence and trust the process. Everybody is different. Every circumstance is different.
-Who knows you hit a chance and be a millionaire someday. Also, this thirst to strive is why we're alive after all these years.
-Darwin would be proud on us. 
+Me and my mentor **Philipp** are having discussions for implementation of the above goals and I am looking forward to working 40+ hours  and adhering to my timeline as mentioned in my proposal. I am excited and yet nervous for this opportunity that lies in front of me. 
 
-> “Some people can’t believe in themselves until someone else believes in them first.” – Sean Maguire, from Good Will Hunting
+**Peace!**
+
+> “Some people can’t believe in themselves until someone else believes in them first.” – Sean Maguire, from **Good Will Hunting**
