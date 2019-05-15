@@ -5,9 +5,6 @@ import Image from 'gatsby-image'
 import { rhythm } from '../utils/typography'
 
 function Bio() {
-  const tags = {
-    color: `#353535`
-  }
   return (
     <StaticQuery
       query={bioQuery}
@@ -31,13 +28,10 @@ function Bio() {
               }}
             />
             <p>
-              This Blog belongs to <strong>{author}</strong> who is a Web Developer from Bhubaneswar. I am an Open 
-              Source full stack developer who specialises in javascript. The stuff I know includes <span style={tags}>nodejs</span>, 
-              <span style={tags}>express</span>, <span style={tags}>Php Symfony</span>, 
-              <span style={tags}> ReactJS</span>, <span style={tags}>mongoDb</span> and <span style={tags}>Redis</span>.
-              {` `} <br/>
-              <a href={`https://github.com/${social.github}`}>
-                Hit me up on GitHub
+              This blog belongs to <strong>{author}</strong> who is a Web Developer and Architect at Zairza.
+              {` `}
+              <a href={`https://github.com/${social.github}`} target={`blank`}>
+                Follow me on Github
               </a>
             </p>
           </div>
