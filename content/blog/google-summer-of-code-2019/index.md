@@ -1,9 +1,10 @@
 ---
 title: Google Summer Of Code 2019
 date: '2019-05-07T14:12:03.284Z'
+tags: [tag:Librecores]
 ---
 
-![Google Summer of Code 2019](./GSOC.png)
+![Google Summer of Code 2019](https://lh3.googleusercontent.com/R1HZsq3T69advXLEU240GSLMN_L_78QniEdGvS6ylM0XOYOf0HxsNXd2NH0O-CWOReq1YT4chrCTEtbr5MAbAhmmTabHYruAioXn=w1280)
 
 ### Introduction
 I feel really happy to announce that I have been selected to work under 
