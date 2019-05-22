@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import { rhythm, scale } from '../utils/typography'
+import IconDisabled from '../components/icons';
 
 class Layout extends React.Component {
   render() {
@@ -68,6 +69,7 @@ class Layout extends React.Component {
         {header}
         {children}
         <footer>
+        <a href="/rss.xml"><IconDisabled/></a>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
