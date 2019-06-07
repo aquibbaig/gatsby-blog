@@ -7,7 +7,7 @@ date: "2019-06-07T12:12:03.284Z"
 
 ### Going further
 Till this point, we have learnt how to create webpack.config.js and add CSS/JS files to the configuration. Also we have learnt how to render these entries inside our twig templates. Next comes the advanced Webpack configuration before production/deployment.
-# Adding custom loaders
+### Adding custom loaders
 Webpack Encore provides some prerequired methods such as `addRule()` and `addLoader()` to add custom loaders to parse specific files included in your project. For example: In my project, I used a file called `classifications.yml` which can't be normally parsed through webpack. So, I had to use a npm package called `js-yaml-loader` and added a custom rule as follows:
 ```
 .addRule({
@@ -16,13 +16,13 @@ Webpack Encore provides some prerequired methods such as `addRule()` and `addLoa
 })
 ```
 
-# Final steps
+### Final steps
 Before building webpack for production, you need to take care of a few things first
 - Source map the development and production builds to enable webpack to read from `entrypoints.json`
 - For the files that are being used commonly for multiple files, use `createSharedEntry()` to minimise file sizes.
 - Run the development and Production builds to check if everything is working file and the website doesn't break.
 
-# Common problems and their fixes
+### Common problems and their fixes
 This section contains some major issues I faced during my project and how I fixed them through lot of searches.
 1. Problems with webpack commands:
     - `yarn encore dev` to start webpack in the development server. This command compiles every entry you added in your config and the corresponding dependencies to create build inside your `public/build/` or `web/build/` (#whatever you have specified in your webpack config file).
@@ -39,12 +39,12 @@ import 'bootstrap';
 
 If you want to even set up global jQuery variable, use `global.jQuery = jQuery` or use `autoProvideJQuery()` function inside **webpack.config.js**
 
-# Valuable Tutorials
+### Valuable Tutorials
 I found these two resources really helpful while my work. I hope they would be of help to you as well.
 - [SymfonyCasts](https://symfonycasts.com/screencast/webpack-encore)
 - [Symfony Official Documentation](https://symfony.com/doc/current/frontend.html)
 
-# A short note on my Project
+### A short note on my Project
 - I migrated from existing Assetic configuration for my project [Librecores](https://www.librecores.org/) of Fossi Foundation in the first week of coding of [Google Summer of Code 2019](../gsoc-2019). It was a long and hefty task because a lot of stuff was not clear for me online and had to do a lot of research to get stuff up and running. 
 - This was the approach which I used and I guess this will be for most people out there. The Pull Request is yet to be reviewed and can be found [here](https://github.com/librecores/librecores-web/pull/353/).
 - At the end, tutorials and everything will always be there but it comes down to personal preferences and project requirements that majorly directs your approaches. Also, for anything that you have faced problems with, it's 99% probability that someone else in this world has faced it too and solved it. You just need maybe 10 minutes to find that on the Web, a big great thing. However that comes down to your Googling skills. Don't arrest me for that.
