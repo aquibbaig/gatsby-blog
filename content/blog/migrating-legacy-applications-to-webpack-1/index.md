@@ -14,7 +14,7 @@ date: "2019-06-07T12:06:03.284Z"
 - There are two ways to run JavaScript in a browser. First, include a script for each functionality; this solution is hard to scale because loading too many scripts can cause a network bottleneck. The second option is to use a big *.js* file containing all your project code, but this leads to problems in scope, size, readability and maintainability.
 That's where webpack comes into picture.
 For more information on webpack core concepts, hop over to [Webpack core concepts](https://webpack.js.org/concepts).
-- Webapck allows you to **require** and **import** stuff inside javascript files. Webpack can compile those two methods for you. Every third party dependency you want to require is installed through yarn (such as Bootstrap, JQuery, livestamp, etc). Through Webpack, we tend to achieve a system which is free of global variables. While migrating legacy applications, this may be a pain but once you do that, you will find that all of your javascript code is completely organised properly into modules.
+- Webpack allows you to **require** and **import** stuff inside javascript files. Webpack can compile those two methods for you. Every third party dependency you want to require is installed through yarn (such as Bootstrap, JQuery, livestamp, etc). Through Webpack, we tend to achieve a system which is free of global variables. While migrating legacy applications, this may be a pain but once you do that, you will find that all of your javascript code is completely organised properly into modules.
 
 # Webpack Encore
 *source: `Symfony Docs`*
