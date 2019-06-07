@@ -29,7 +29,7 @@ function Bio() {
             />
             <p>
               This blog belongs to <strong>{author}</strong> who is a Web Developer and Architect at Zairza. Apart from writing code, I like to play soccer,
-              listen to music and play video games. 
+              listen to music and play video games. I am currently working as a summer intern at the umbrella organisation "FOSSi Foundation" under Google Summer Of Code. 
               {` `}
               <a href={`https://github.com/${social.github}`} target={`blank`}>
                 Follow me on Github

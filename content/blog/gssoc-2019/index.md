@@ -5,7 +5,6 @@ date: '2019-06-02T17:00:03.284Z'
 
 ![GirlScript Summer of Code 2019](https://cdn-images-1.medium.com/max/1600/1*CKaCnG11p5i0KiQyaoyBvg.png)
 
-### Introduction
 Two months back, I recieved a mail from GirlScript foundation regarding this event named *GirlSript Summer Of Code* which is a 
 two months long event where students can work under real world projects/applications backed by Open Source organisations.
 I was meekly interested because I was busy contributing to my organisation for [Google Summer Of Code](../gsoc-2019), but I gave it a shot anyways. The major reason why I decided to contribute here was because whilst looking up for organisations list of the event, I came

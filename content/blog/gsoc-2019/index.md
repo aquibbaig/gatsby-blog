@@ -6,7 +6,6 @@ tags: [tag:Librecores]
 
 ![Google Summer of Code 2019](https://lh3.googleusercontent.com/R1HZsq3T69advXLEU240GSLMN_L_78QniEdGvS6ylM0XOYOf0HxsNXd2NH0O-CWOReq1YT4chrCTEtbr5MAbAhmmTabHYruAioXn=w1280)
 
-### Introduction
 I feel really happy to announce that I have been selected to work under 
 [Google Summer of Code](https://summerofcode.withgoogle.com/) internship programme organised every year by Google Inc. to 
 make students reach out to Open Source organisations and provide them a wonderful opportunity to grow as Open Source 
