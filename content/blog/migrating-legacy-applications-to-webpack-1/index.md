@@ -1,5 +1,5 @@
 ---
-title: "Migrating legacy applications to webpack (Part 1)"
+title: "[GSoC 2019] Migrating legacy applications to webpack (Part 1)"
 date: "2019-06-07T12:06:03.284Z"
 ---
 

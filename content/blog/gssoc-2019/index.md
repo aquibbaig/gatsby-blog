@@ -1,5 +1,5 @@
 ---
-title: Two months of code with Madlabs
+title: "[GSSoC 2019] Two months of code with Madlabs"
 date: '2019-06-02T17:00:03.284Z'
 ---
 
