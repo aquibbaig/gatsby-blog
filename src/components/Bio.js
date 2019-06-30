@@ -34,6 +34,11 @@ function Bio() {
               <a href={`https://github.com/${social.github}`} target={`blank`}>
                 Follow me on Github
               </a>
+              <br/>
+              <ul>
+                <li><a href={`/tech`}>Gear</a></li>
+                <li><a href={`/projects`}>Projects</a></li>
+              </ul>
             </p>
           </div>
         )
